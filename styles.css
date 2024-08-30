@@ -152,3 +152,102 @@ main {
 .type_coffee > p {
     margin-top: 1rem;
 }
+
+/* FORM CONTACT */
+.cont_contact {
+    width: 100%;
+    max-width: 1400px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.cont_contact .form {
+    background-color: #A59D93;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* info contact */
+.form_one {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    margin-bottom: 1rem;
+    background-color: #DCD0C4;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.form_one h2 {
+    font-family: "Flamenco", sans-serif, Arial, Helvetica;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px;
+}
+.form_one > .spacing {
+    width: 100%;
+    height: 1px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.25);
+    margin: 1rem 0;
+}
+.form_one .info_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    padding: 20px 10px;
+}
+.form_one .info_contact li {
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: 10px 0;
+}
+.form_one .info_contact li i {
+    margin-right: 1rem;
+}
+
+/* send msj */
+.form_two {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.form_two input,
+.form_two #msj {
+    width: 100%;
+    margin-bottom: .5rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+    font-size: 1rem;
+}
+.form_two #msj {
+    height: 100px;
+}
+
+#btn_form {
+    border: none;
+    background-color: #575757;
+    color: var(--font-white);
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+

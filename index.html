@@ -11,6 +11,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Flamenco:wght@300;400&display=swap"
         rel="stylesheet">
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- CSS -->
     <link rel="stylesheet" href="/styles.css">
 </head>
@@ -53,7 +57,7 @@
                 <a href="#" class="popular_menu_btn">Menu</a>
             </div>
         </section>
-        <hr class="spacing">
+        <!-- <hr class="spacing"> -->
         <section class="cont_popular_menu">
             <h2>Popular Menu</h2>
             <div class="popular_menu">
@@ -83,9 +87,40 @@
                 </div>
             </div>
         </section>
-        <hr class="spacing">
+        <!-- <hr class="spacing"> -->
         <section class="cont_contact">
+            <div class="form">
+                <div class="form_one">
+                    <h2>Contact</h2>
+                    <hr class="spacing">
+                    <ul class="info_contact">
+                        <li>
+                            <i class="fa-solid fa-location-dot" style="color: #0a0a0a;"></i>
+                            <p>Dirección - 1234</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone" style="color: #0a0a0a;"></i>
+                            <p>+54123456789</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope" style="color: #0a0a0a;"></i>
+                            <p>email@email.com</p>
+                        </li>
+                    </ul>
+                </div>
+                <form action="#" method="post" id="form_contact" class="form_two">
+                    <label for="name"></label>
+                    <input type="text" id="name" name="name" placeholder="Nombre">
+                    <label for="name"></label>
+                    <input type="email" id="email" name="email" placeholder="Email">
+                    <label for="name"></label>
+                    <textarea name="msj" id="msj" placeholder="Mensaje"></textarea>
 
+                    <button id="btn_form" type="submit" form="form_contact">Enviar</button>
+                </form>
+
+
+            </div>
         </section>
     </main>
 
