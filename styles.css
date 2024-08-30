@@ -32,7 +32,7 @@ main {
 .spacing {
     width: 70%;
     height: 2px;
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.20);
 }
 .cont_header {
     background-color: var(--secondary-color);
@@ -152,7 +152,6 @@ main {
 .type_coffee > p {
     margin-top: 1rem;
 }
-<<<<<<< HEAD
 
 /* FORM CONTACT */
 .cont_contact {
@@ -252,5 +251,3 @@ main {
     font-weight: 500;
 }
 
-=======
->>>>>>> 5b2562bd31e793734d252a75cb1c852cd50b3cdf
