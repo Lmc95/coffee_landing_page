@@ -6,6 +6,8 @@ let menu = 0;
 // opciones menu
 const optMenu = document.querySelectorAll('.menu_header a');
 
+const formContact = document.getElementById('form_contact');
+
 
 const cerrarMenu = () => {
     icoBtnMenu.classList.add('fa-bars');
@@ -41,4 +43,13 @@ btnMenu.addEventListener('click', () => {
     }else {
         abrirMenu()
     }
+})
+
+formContact.addEventListener('submit', (e) => {
+    e.preventDefault();
+    alert('Formulario enviado sin procesar (prueba)')
+    document.getElementById('name').value = '';
+    document.getElementById('email').value = '';
+    document.getElementById('msj').value = '';
+
 })
